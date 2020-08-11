@@ -1,0 +1,45 @@
+:root {
+  font-size: 60%;
+
+  --color-background-light: #FFF;
+  --color-background-shadow-light: #F5F8FA;
+  --color-background-shadow-dark: #e6ecf0;
+  --color-background-hover: rgba(29, 161, 242, 0.1);
+  --color-primary: #1DA1F2;
+  --color-primary-dark: rgb(26, 145, 218);
+  --color-text-primary: #14171A;
+  --color-text-primary-light: #FFFF;
+  --color-text-secondary: #9197A3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+body {
+  background: var(--color-background-light);
+}
+
+button, input, textarea {
+  outline: 0;
+  border: 0;
+}
+
+button {
+  background: var(--color-primary);
+  color: var(--color-text-primary-light);
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  :root {
+    font-size: 62.5%;
+  }
+}
