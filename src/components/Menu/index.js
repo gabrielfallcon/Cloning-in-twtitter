@@ -22,42 +22,42 @@ const Menu = () => {
       <List className="menu-buttons">
         <li>
           <FiHome size={25}/>
-          Página Inicial
+          Home
         </li>
 
         <li>
           <FiHash size={25}/>
-          Explorar
+          Explorer
         </li>
 
         <li>
           <FiBell size={25}/>
-          Notificações
+          Notifications
         </li>
 
         <li>
           <FiMail size={25}/>
-          Mensagens
+          Mesages
         </li>
 
         <li>
           <FiBookmark size={25}/>
-          Itens salvos
+          Bookmarks
         </li>
 
         <li>
           <FiFileText size={25}/>
-          Listas
+          Lists
         </li>
 
         <li>
           <FiUser size={25}/>
-          Perfil
+          Profile
         </li>
 
         <li>
           <FiMoreHorizontal size={25}/>
-          Mais
+          More
         </li>
       </List>
 

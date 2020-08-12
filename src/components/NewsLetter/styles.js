@@ -14,6 +14,7 @@ export const InputSearch = styled.div`
   border-radius: 40px;
   background: var(--color-background-shadow-dark);
   color: var(--color-text-secondary);
+  margin-top: 1rem;
 
   &:focus-within  {
     background: var(--color-background-light);
