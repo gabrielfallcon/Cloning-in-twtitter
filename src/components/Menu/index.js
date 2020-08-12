@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { 
   FiHome, 
   FiHash, 
@@ -20,48 +21,48 @@ const Menu = () => {
       <img src={logoImg} alt="Twitter"/>
 
       <List className="menu-buttons">
-        <li>
+        <Link to="/">
           <FiHome size={25}/>
           Home
-        </li>
+        </Link>
 
-        <li>
+        <Link>
           <FiHash size={25}/>
           Explorer
-        </li>
+        </Link>
 
-        <li>
+        <Link>
           <FiBell size={25}/>
           Notifications
-        </li>
+        </Link>
 
-        <li>
+        <Link>
           <FiMail size={25}/>
           Mesages
-        </li>
+        </Link>
 
-        <li>
+        <Link>
           <FiBookmark size={25}/>
           Bookmarks
-        </li>
+        </Link>
 
-        <li>
+        <Link>
           <FiFileText size={25}/>
           Lists
-        </li>
+        </Link>
 
-        <li>
+        <Link to="/profile">
           <FiUser size={25}/>
           Profile
-        </li>
+        </Link>
 
-        <li>
+        <Link>
           <FiMoreHorizontal size={25}/>
           More
-        </li>
+        </Link>
       </List>
 
-      <Button>Tweetar</Button>
+      <Button>Tweet</Button>
     </Container>
   );
 }

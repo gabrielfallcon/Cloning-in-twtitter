@@ -10,11 +10,12 @@ export const Container = styled.div`
 
 export const HeadHome = styled.div`
   width: 100%;
+  height: 53px;
   max-width: 600px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1.6rem 1.8rem;
+  padding: 0 1.8rem;
   border-bottom: 1px solid var(--color-background-shadow-dark);
   position: fixed;
   
@@ -85,6 +86,50 @@ export const PublicTwitter = styled.div`
       justify-content: center;
       font-weight: 600;
       font-size: 1.6rem;
+
+      transition: .3s;
+
+      &:hover {
+        background: var(--color-primary-dark);
+      }
+    }
+  }
+`;
+
+export const WelcomeTo = styled.div`
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3.6rem 2.8rem;
+
+  h1 {
+    margin-bottom: 1.4rem;
+  }
+
+  legend {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center;
+    color: var(--color-text-secondary);
+    font-weight: 400;
+    margin-bottom: 1.8rem;
+  }
+
+  button {
+    width: 91px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 1.4rem;
+    transition: .3s;
+
+    &:hover {
+      background: var(--color-primary-dark);
     }
   }
 `;

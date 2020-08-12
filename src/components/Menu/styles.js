@@ -17,7 +17,7 @@ export const Container = styled.div`
 export const List = styled.ul`
   width: 100%;
 
-  li {
+  a {
     width: max-content;
     height: 40px;
     display: flex;
@@ -30,8 +30,9 @@ export const List = styled.ul`
     color: var(--color-text-primary);
     font-weight: bold;
     transition: .2s;
+    text-decoration: none;
 
-    & + li {
+    & + a {
       margin-top: 2rem;
     }
 
@@ -48,13 +49,13 @@ export const List = styled.ul`
 
 export const Button = styled.button`
   width: 100%;
-  max-width: 247px;
+  max-width: 230px;
   height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 600;
-  font-size: 1.6rem; 
+  font-size: 1.4rem; 
   border-radius: 40px;
   margin-top: 2.4rem;
   transition: .3s;
